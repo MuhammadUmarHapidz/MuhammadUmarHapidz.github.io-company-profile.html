@@ -4,7 +4,7 @@
     $password = $_POST['password'];
 
     if($email == 'admin@admin.com' && $password == 'admin') {
-        header('Location: ./../dashboard.php');
+        header('Location: ./../index.html');
     }
     }
 ?>
